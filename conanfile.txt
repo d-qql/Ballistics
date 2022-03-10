@@ -1,0 +1,6 @@
+[requires]
+geographiclib/1.52
+sofa/20210512
+gtest/cci.20210126
+[generators]
+cmake
