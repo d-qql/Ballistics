@@ -50,4 +50,5 @@ target_include_directories(${MODULE_NAME} ${OTHER_MODULE_LINK_TYPE} ${CMAKE_CURR
 target_link_libraries(${MODULE_NAME} ${OTHER_MODULE_LINK_TYPE}
         CONAN_PKG::sofa
         CONAN_PKG::geographiclib
+        CONAN_PKG::eigen
         )
