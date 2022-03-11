@@ -13,4 +13,8 @@ struct SatPositionState{
     Eigen::Vector3d position;
     Eigen::Vector3d velocity;
 };
+struct SatData{
+    double mass;
+    double fuelMass;
+};
 #endif //BALLISTICS_SATELLITEDATA_HPP
