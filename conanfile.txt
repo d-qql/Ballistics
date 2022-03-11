@@ -1,6 +1,7 @@
 [requires]
 geographiclib/1.52
 sofa/20210512
+eigen/3.4.0
 gtest/cci.20210126
 [generators]
 cmake
