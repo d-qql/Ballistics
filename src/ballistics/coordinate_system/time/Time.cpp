@@ -91,7 +91,7 @@ Time Time::addSeconds(double seconds) const {
 #ifndef NDEBUG
     if (result.jdPart < 0. || result.jdDay < .0) {
         std::stringstream buff;
-        buff << "После прибавления секунд получается некорректное время! " << result;
+        buff << "После прибавления секунд получается некорректное время! " << std::endl;
         throw std::runtime_error(buff.str().c_str());
     }
 #endif
