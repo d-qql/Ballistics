@@ -5,12 +5,13 @@
 #ifndef BALLISTICS_STEPSTRUCT_HPP
 #define BALLISTICS_STEPSTRUCT_HPP
 
-#include "State.hpp"
+#include "../ballistics/satellite/SatelliteData.hpp"
 
 struct StepStruct {
     /* Структура шага интегрирования */
     double step;
-    State state;
+    SatPositionState satPositionState;
+    SatData satData;
 };
 
 #endif //BALLISTICS_STEPSTRUCT_HPP
